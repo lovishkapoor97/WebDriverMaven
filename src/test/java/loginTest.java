@@ -30,6 +30,7 @@ public class loginTest {
 		driver.findElement(By.xpath("//div[@id='identifierNext']//div[@class='VfPpkd-dgl2Hf-ppHlrf-sM5MNb']//button[@type='button']//div[@class='VfPpkd-RLmnJb']")).click();
 		driver.findElement(By.id("Passwd")).sendKeys("null");
 
+		driver.findElement(By.id("Signin")).click();
 	}
 	
 	@AfterSuite
