@@ -31,8 +31,7 @@ public class loginTest {
 		driver.findElement(By.id("Passwd")).sendKeys("null");
 
 		driver.findElement(By.id("Signin")).click();
-		
-		driver.close();
+
 	}
 	
 	@AfterSuite
